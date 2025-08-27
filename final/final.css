@@ -6,66 +6,13 @@
     /*    margin-left: -375px;
         margin-top: -285px;*/
 }
- 
+
 .xbox.disconnected {
     background: url(xbox-assets/disconnected.svg);
 }
 
 .xbox.disconnected div {
     display: none;
-}
-
-.xbox .triggers {
-    width: 446px;
-    height: 121px;
-    position: absolute;
-    left: 152px;
-}
-
-.xbox .trigger {
-    width: 88px;
-    height: 121px;
-    background: url(xbox-assets/trigger.svg);
-    opacity: 0;
-}
-
-.xbox .trigger.left {
-    float: left;
-    background-position: 0 0;
-}
-
-.xbox .trigger.right {
-    float: right;
-    transform: rotateY(180deg);
-}
-
-.xbox .bumper {
-    width: 170px;
-    height: 61px;
-    background: url(xbox-assets/bumper.svg);
-    opacity: 0;
-}
-
-.xbox .bumpers {
-    position: absolute;
-    width: 536px;
-    height: 61px;
-    left: 107px;
-    top: 129px;
-}
-
-.xbox .bumper.pressed {
-    opacity: 1;
-}
-
-.xbox .bumper.left {
-    float: left;
-}
-
-.xbox .bumper.right {
-    float: right;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
 }
 
 .xbox .quadrant {
@@ -107,7 +54,7 @@
 }
 
 .xbox .back, .xbox .start {
-    background: url(start2.png);
+    background: url(select2.png);
     width: 33px;
     height: 33px;
     opacity: 0;
